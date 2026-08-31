@@ -1,10 +1,10 @@
 import React from "react";
-import profile_img from "../../assets/profile_img1.svg";
+import profile_img from "../../assets/profile_circular.png";
 import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-      <img src={profile_img} alt="" />
+      <img className="profile-img" src={profile_img} alt="" />
       <h1>
         <span>I'm Shaik Kashif,</span> frontend developer based in HYD.
       </h1>

@@ -21,3 +21,49 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.profile-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+}
+
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-resume:hover {
+  border-color: #b415ff;
+  
+}
