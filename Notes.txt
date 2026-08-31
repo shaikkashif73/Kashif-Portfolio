@@ -1,0 +1,3 @@
+Extra things that i installed in this project
+
+:-  "react-anchor-link-smooth-scroll": "^1.0.12",
