@@ -7,11 +7,13 @@ const Navbar = () => {
       <img className="logo" src={logo} alt="" />
       <ul className="nav-menu">
         <li>Home</li>
-        <li>About me</li>
-        <li>Services</li>
-        <li>Portfolio</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Experience</li>
         <li>Contact</li>
       </ul>
+
       <div className="nav-connect">Connect With Me</div>
     </div>
   );
