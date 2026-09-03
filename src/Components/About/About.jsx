@@ -5,7 +5,7 @@ import profile_image from "../../assets/about_profile.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
         <img src={theme_pattern} alt="" />
@@ -20,9 +20,9 @@ const About = () => {
           <div className="about-para">
             <p>
               I am a Full Stack MERN Developer with 2 years of professional
-              experience, specializing in React.js and frontend development.
-              I have worked on building responsive user interfaces, reusable
-              React components, and modern web applications.
+              experience, specializing in React.js and frontend development. I
+              have worked on building responsive user interfaces, reusable React
+              components, and modern web applications.
             </p>
 
             <p>

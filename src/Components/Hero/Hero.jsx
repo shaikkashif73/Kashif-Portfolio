@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img className="profile-img" src={profile_img} alt="Shaik Kashif" />
 
       <h1>
@@ -20,7 +20,11 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect">
+          <a href="#contact" className="anchor-link" offset={50}>
+            Connect with me
+          </a>
+        </div>
         <div className="hero-resume">My Resume</div>
       </div>
     </div>
