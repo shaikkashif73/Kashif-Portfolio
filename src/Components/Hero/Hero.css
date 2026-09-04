@@ -4,6 +4,7 @@
   gap: 35px;
   align-items: center;
 }
+
 .hero img {
   margin-top: 150px;
 }
@@ -21,12 +22,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .profile-img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
   object-fit: cover;
-  overflow: hidden;
 }
 
 .hero p {
@@ -57,6 +58,9 @@
   border-radius: 50px;
   cursor: pointer;
   border: 2px solid #fff;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .hero-connect:hover {
@@ -66,32 +70,39 @@
 .hero-resume:hover {
   border-color: #b415ff;
 }
+
 @media (max-width: 768px) {
   .hero img {
     margin-top: 120px;
     width: 260px;
+    height: 260px;
   }
+
   .hero h1 {
     margin-top: 50px;
     width: 90%;
     font-size: 50px;
   }
+
   .hero p {
-    width: 60%;
+    width: 80%;
     font-size: 18px;
     line-height: 32px;
-    margin: 10px 0px;
+    margin: 10px 0;
   }
+
   .hero-action {
     gap: 16px;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 50px;
   }
+
   .hero-connect {
     padding: 20px 30px;
     border-radius: 40px;
   }
+
   .hero-resume {
     padding: 20px 50px;
     border-radius: 40px;

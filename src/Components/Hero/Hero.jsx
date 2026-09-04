@@ -1,5 +1,6 @@
 import React from "react";
 import profile_img from "../../assets/profile_circular.png";
+import resume from "../../assets/Shaik_Kashif_Resume.pdf";
 import "./Hero.css";
 
 const Hero = () => {
@@ -12,20 +13,27 @@ const Hero = () => {
       </h1>
 
       <p>
-        Full Stack MERN Developer with 2 years of professional experience
-        building responsive, scalable, and user-focused web applications.
-        Skilled in React.js, JavaScript, Redux, Node.js, Express.js, MongoDB,
-        and REST APIs, with a strong focus on clean code, reusable components,
-        and delivering reliable solutions.
+        I’m a Full Stack MERN Developer with 2 years of experience, mainly
+        working with React.js and frontend development. I enjoy building
+        responsive interfaces, working with APIs, and turning designs into clean
+        and functional web applications.
       </p>
 
       <div className="hero-action">
         <div className="hero-connect">
-          <a href="#contact" className="anchor-link" offset={50}>
+          <a href="#contact" className="anchor-link">
             Connect with me
           </a>
         </div>
-        <div className="hero-resume">My Resume</div>
+
+        <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hero-resume"
+        >
+          My Resume
+        </a>
       </div>
     </div>
   );

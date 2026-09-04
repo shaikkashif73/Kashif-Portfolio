@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
+
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_image from "../../assets/about_profile.svg";
+import profile_image from "../../assets/finalpicturekashif.png";
 
 const About = () => {
   return (
@@ -13,23 +14,24 @@ const About = () => {
 
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_image} alt="Kashif" />
+          <img src={profile_image} alt="Shaik Kashif" />
         </div>
 
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a Full Stack MERN Developer with 2 years of professional
-              experience, specializing in React.js and frontend development. I
-              have worked on building responsive user interfaces, reusable React
-              components, and modern web applications.
+              I’m a Frontend Developer with 2 years of experience, working
+              mainly with React.js and modern web technologies. My work has
+              involved building responsive user interfaces, developing reusable
+              components, and turning designs into functional web pages.
             </p>
 
             <p>
-              Along with frontend development, I have hands-on experience with
-              Node.js, Express.js, MongoDB, REST APIs, and Redux. I enjoy
-              building complete web applications and continuously improving my
-              development skills through real-world projects.
+              I also work with Node.js, Express.js, MongoDB and REST APIs, which
+              allows me to understand and contribute to the backend side of
+              applications as well. I enjoy working on real projects, solving
+              development issues, and improving my skills through hands-on
+              experience.
             </p>
           </div>
 
@@ -40,7 +42,7 @@ const About = () => {
             </div>
 
             <div className="about-skill">
-              <p>Angular.js</p>
+              <p>JavaScript</p>
               <hr style={{ width: "85%" }} />
             </div>
 
@@ -67,7 +69,7 @@ const About = () => {
 
         <div className="about-achievement">
           <h1>3+</h1>
-          <p>MAJOR PROJECTS</p>
+          <p>PROJECTS</p>
         </div>
 
         <hr />

@@ -3,42 +3,37 @@ const Services_Data = [
     s_no: "01",
     s_name: "Frontend Development",
     s_desc:
-      "Building responsive and modern user interfaces using React.js, JavaScript, HTML, and CSS.",
+      "Building responsive and user-friendly interfaces using React.js, JavaScript, HTML5, CSS3, Tailwind CSS and Bootstrap.",
   },
-
   {
     s_no: "02",
-    s_name: "React Development",
+    s_name: "React.js",
     s_desc:
-      "Creating reusable React components, dynamic applications, and interactive user experiences.",
+      "Developing reusable components, working with Hooks, managing UI state and building responsive React applications.",
   },
-
   {
     s_no: "03",
     s_name: "Backend Development",
     s_desc:
-      "Developing REST APIs and backend applications using Node.js, Express.js, and MongoDB.",
+      "Working with Node.js and Express.js to build server-side applications and RESTful APIs.",
   },
-
   {
     s_no: "04",
-    s_name: "MERN Stack Development",
+    s_name: "MongoDB",
     s_desc:
-      "Building complete full-stack web applications using MongoDB, Express.js, React.js, and Node.js.",
+      "Working with MongoDB and Mongoose for database management, schema design and application data.",
   },
-
   {
     s_no: "05",
-    s_name: "REST API Development",
+    s_name: "API Integration",
     s_desc:
-      "Creating and integrating RESTful APIs for authentication, data management, and application functionality.",
+      "Connecting frontend applications with REST APIs and handling data, authentication and application workflows.",
   },
-
   {
     s_no: "06",
-    s_name: "Responsive Web Design",
+    s_name: "Git & GitHub",
     s_desc:
-      "Designing responsive websites that work smoothly across desktops, tablets, and mobile devices.",
+      "Using Git and GitHub for source control, managing code changes and working with development projects.",
   },
 ];
 
