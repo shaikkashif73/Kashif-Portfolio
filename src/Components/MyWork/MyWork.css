@@ -35,6 +35,10 @@
   overflow: hidden;
   border-radius: 10px;
   transition: 0.3s;
+  text-decoration: none;
+  color: white;
+  display: block;
+  cursor: pointer;
 }
 
 .mywork-item img {

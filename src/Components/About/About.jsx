@@ -38,7 +38,7 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p>React.js</p>
-              <hr style={{ width: "90%" }} />
+              <hr style={{ width: "65%" }} />
             </div>
 
             <div className="about-skill">
@@ -48,12 +48,12 @@ const About = () => {
 
             <div className="about-skill">
               <p>Node.js</p>
-              <hr style={{ width: "75%" }} />
+              <hr style={{ width: "60%" }} />
             </div>
 
             <div className="about-skill">
               <p>MongoDB</p>
-              <hr style={{ width: "70%" }} />
+              <hr style={{ width: "50%" }} />
             </div>
           </div>
         </div>

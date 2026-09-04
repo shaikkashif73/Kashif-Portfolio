@@ -14,14 +14,19 @@ const MyWork = () => {
       <div className="mywork-container">
         {mywork_data.map((work, index) => {
           return (
-            <div className="mywork-item" key={index}>
+            <a
+              className="mywork-item"
+              key={index}
+              href={work.w_link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={work.w_img} alt={work.w_name} />
 
               <div className="mywork-info">
                 <h2>{work.w_name}</h2>
-                <p>{work.w_desc}</p>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>
