@@ -9,14 +9,16 @@ const Hero = () => {
       <img className="profile-img" src={profile_img} alt="Shaik Kashif" />
 
       <h1>
-        <span>I'm Shaik Kashif,</span> a Full Stack MERN Developer
+        <span>I'm Shaik Kashif,</span> a Full Stack Developer
       </h1>
 
       <p>
-        I’m a Full Stack MERN Developer with 2 years of experience, mainly
-        working with React.js and frontend development. I enjoy building
-        responsive interfaces, working with APIs, and turning designs into clean
-        and functional web applications.
+        I’m a Full Stack Developer with 2 years of experience building
+        responsive and user-friendly web applications. I work across both
+        frontend and backend development, building interfaces, integrating APIs,
+        developing server-side functionality, and working with databases to
+        create complete web solutions. I enjoy turning ideas into clean,
+        functional, and scalable applications.
       </p>
 
       <div className="hero-action">

@@ -20,18 +20,17 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I’m a Frontend Developer with 2 years of experience, working
-              mainly with React.js and modern web technologies. My work has
-              involved building responsive user interfaces, developing reusable
-              components, and turning designs into functional web pages.
+              I’m a Full Stack Developer with 2 years of professional
+              experience, working across frontend and backend development. I
+              build responsive user interfaces, reusable components, REST APIs,
+              server-side functionality, and database-driven applications.
             </p>
 
             <p>
-              I also work with Node.js, Express.js, MongoDB and REST APIs, which
-              allows me to understand and contribute to the backend side of
-              applications as well. I enjoy working on real projects, solving
-              development issues, and improving my skills through hands-on
-              experience.
+              I work with React.js, Angular, JavaScript, Node.js, Express.js,
+              MongoDB, and REST APIs. I enjoy building complete web
+              applications, solving development issues, and turning ideas into
+              clean and functional products.
             </p>
           </div>
 
@@ -44,6 +43,11 @@ const About = () => {
             <div className="about-skill">
               <p>JavaScript</p>
               <hr style={{ width: "85%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>Angular</p>
+              <hr style={{ width: "65%" }} />
             </div>
 
             <div className="about-skill">
@@ -75,8 +79,8 @@ const About = () => {
         <hr />
 
         <div className="about-achievement">
-          <h1>MERN</h1>
-          <p>FULL STACK DEVELOPMENT</p>
+          <h1>FULL STACK</h1>
+          <p>WEB DEVELOPMENT</p>
         </div>
       </div>
     </div>
