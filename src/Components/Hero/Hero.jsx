@@ -1,6 +1,6 @@
 import React from "react";
 import profile_img from "../../assets/profile_circular.png";
-import resume from "../../assets/Shaik_Kashif_Resume.pdf";
+import resume from "../../assets/SHAIK_KASHIF_2.pdf";
 import "./Hero.css";
 
 const Hero = () => {
